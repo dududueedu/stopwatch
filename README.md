@@ -1,2 +1,0 @@
-# stopwatch
-Stopwatch with ReactNative
