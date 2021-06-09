@@ -1,5 +1,6 @@
 import React from 'react';
-import { StyleSheet, Text, View, Button, Alert } from 'react-native';
+import {  Text, View, Button, Alert } from 'react-native';
+import styles from '../assets/css/style'
 
 const Crono = () => {
   return (
@@ -14,23 +15,3 @@ const Crono = () => {
   )
 }
 export default Crono;
-
-const styles = StyleSheet.create({
-  header: {
-    fontSize: 30,
-    backgroundColor: 'black',
-    color: 'white',
-    borderRadius: 5,
-    textAlign: 'center',
-    width: 150,
-    height: 38
-  },
-  space_botoes: {
-    marginTop: 40,
-    height: 200,
-    width: 190
-  },
-  botoes: {
-    margin: 20
-  }
-});
